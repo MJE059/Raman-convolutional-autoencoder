@@ -2,7 +2,7 @@
 """
 Created on Mon Feb  6 10:16:10 2023
 
-@author: mje059
+@author: Mathias N. Jensen
 """
 
 import os
@@ -10,7 +10,8 @@ import numpy as np
 import tensorflow as tf
 from CVAE import *
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#Disable CUDA acceleration
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 def mergeclass(merge,oldclass,oldkey):
     replaceclass = min(merge)
