@@ -2,7 +2,7 @@
 """
 Created on Tue Mar  8 15:28:48 2022
 
-@author: mje059
+@author: Mathias N. Jensen
 """
 
 # -*- coding: utf-8 -*-
@@ -17,8 +17,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 import RamanData
-from Helpers import *
-from Display import *
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
